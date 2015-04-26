@@ -1,49 +1,17 @@
-@media (max-width: 600px){
-input[type=number] {
-	width: 1em;
-	background-color: inherit;
-	border:0;
-}
-input[type=number]::-webkit-outer-spin-button,
-input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
+@media (max-width: 600px) {
+	.responsiveTable tr{
+		float: left;
+	}
 
-input[type=number] {
-    -moz-appearance:textfield;
-}
-.responsiveTable tr{
+	.responsiveTable th{		
+		display:block;		
+	}
 
-	display: block;
-	border: 5px black solid;
-	background-color: orange;
-	max-width: 100%;
-	float: left;
-	
+	.responsiveTable  td{
+		min-width: 3em;
+		max-width: 100%;
+		display:block;		
+		text-align: center;
+	}
 
-}
-.responsiveTable .scrollable{
-	max-height: 10px;
-	overflow: auto;
-
-}
-.responsiveTable .name_date{
-	transform: rotate(90deg);
-}
-.responsiveTable  td{
-	word-wrap: break-word;
-	padding: 20%;
-	max-width:3em;
-	min-width: 3em;
-	display:block;
-	margin-top: 0;
-	text-align: center;
-}
-.responsiveTable th{
-	max-width: 100%;
-	display:block;
-	margin-top: 0;
-	
-}
 }
