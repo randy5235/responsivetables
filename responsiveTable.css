@@ -1,6 +1,20 @@
 @media (max-width: 600px) {
+	.responsiveTable tbody {
+		 
+		 float:left;
+		 overflow-x: scroll;
+		 overflow-y: hidden;
+	}
+	.responsiveTable thead {
+		 
+		 float: left;
+	}
+
 	.responsiveTable tr{
+		
+		display: block;
 		float: left;
+
 	}
 
 	.responsiveTable th{		
@@ -8,10 +22,10 @@
 	}
 
 	.responsiveTable  td{
-		min-width: 3em;
 		max-width: 100%;
 		display:block;		
 		text-align: center;
 	}
 
 }
+
